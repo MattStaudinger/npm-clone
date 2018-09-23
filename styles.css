@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+nav {
+  background-color: #C12127;
+  color: white;
+  font-size: 1.5em;
+  width: 100%;
+  padding: 6px 0;;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+
+}
+.nav-right {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+
+}
+
+.nav-right li {
+  display: inline-block;
+  margin: 0 10px;
+
+}
+
+.nav-left {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+  color: white;
+}
+
+.top-header {
+width: 100%;
+overflow: hidden;
+height: 42px;
+}
+
+.top-header-link {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 12px 20px 12px 0;
+}
+
+.top-header-link p {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 0 5px;
+}
+
+.top-header-link a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.top-header img {
+  width: 5%;
+  padding: 10px 10px;
+  float: left;
+}
+
+.top-header .small-logo {
+  width: 2.4%;
+  float: left;  
+  padding: 4px 0px;
+}
+
+.search-box {
+  float: left;
+  width: 80%;
+}
+.search-box a {
+  float: left;
+  background-color: rgb(31, 82, 111);
+  padding: 10px 20px;
+  margin-top: 0px;
+  font-size: 17px;
+  border: 0.2px solid rgba(255, 255, 255, 0.404);
+}
+
+.search-box input {
+  padding: 10px 0px 10px 10px;
+  width: 90%;
+  float: left;
+  margin-top: 0px;
+  background-color: rgb(31, 82, 111);
+  border: none;
+  font-size: 17px;
+  border: 0.2px solid rgba(255, 255, 255, 0.404);
+
+
+}
+
+
+.mid-header {
+  width: 100%;
+  margin: 0 auto;
+  height: 400px;
+  text-align: center;
+  background-image: url(Images/city-scape.svg);
+  background-repeat: no-repeat;
+}
+
+
+.mid-header .img-background{
+  float: right;
+}
+
+.mid-header a {
+  color: rgb(240, 146, 51);
+}
