@@ -98,16 +98,17 @@ height: 42px;
 .search-box a {
   float: left;
   background-color: rgb(31, 82, 111);
-  padding: 13px 20px 13px 20px;
-  font-size: 12px;
+  padding: 10px 20px;
+  margin-top: 0px;
+  font-size: 17px;
   border: 0.2px solid rgba(255, 255, 255, 0.404);
-  color: white;
 }
 
 .search-box input {
   padding: 12px 0px 13px 10px;
   width: 90%;
   float: left;
+  margin-top: 0px;
   background-color: rgb(31, 82, 111);
   border: none;
   font-size: 12px;
@@ -155,11 +156,6 @@ h1 {
   margin: 10px 0;
 }
 
-
-.collab-text h2 {
-  font-size: 27px;
-  line-height: 1.4em;
-}
 #collaboration {
 background-color: rgb(39, 53, 71);
 height: 400px;
@@ -169,74 +165,9 @@ width: 100%;
 .img-background-collab {
   background-image: url(Images/collaboration.svg);
   background-repeat: no-repeat;
-  padding: 12%;
-  margin: 100px 0 0 33%;
-  float: left;
-}
-
-.collab-text {
-  float: left;
-  color: white;
-  margin: 70px 0 0 20px;
-  font-size: 1.3em;
-  line-height: 2em;
-}
-
-.collab-list {
-  margin: 20px 0 0 20px;
-}
-
-.collab-text .collab-button {
-  color: white;
-  border: 0px solid rgb(203, 56, 55);
-  border-radius: 20px;
-  padding: 3px 17px;
-  margin: 20px 20px 10px 20px;
-  display: inline-block;
-  background-color: rgb(203, 56, 55);
-  font-size: 13px;
-  text-decoration: none;
-}
-
-.collab-text a {
-  text-decoration: none;
-  color: white;
-}
-.collab-text p {
-  color: white;
-  display: inline;
-  margin-left: 10px;
-}
-#about {
-  background-image: url(Images/forklift.svg);
-  background-size: cover;
-  height: 400px;
-  width: 100%;
+  height: 200px;
+  width: 100%;  
   position: relative;
-}
-
-
-#about h2 {
-  font-size: 27px;
-  line-height: 1.4em;
-}
-
-.about-text {
-  position: absolute;
-  top: 20%;
-  left: 15%;
-  font-size: 1.3em;
-  line-height: 1.5em;
-  color: white;
-}
-
-.about-text a {
-  border: 0px solid rgb(49, 68, 88);
-  border-radius: 20px;
-  padding: 3px 17px;
-  margin: 15px 0px 10px 0px;
-  display: inline-block;
-  background-color: rgb(49, 68, 88);
-  text-decoration: none;
-  color: white;
+  float: left;
+  padding: 50px 0 50px 33%;
 }
