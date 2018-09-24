@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <title>npm</title>
 </head>
 <body>
 
   <nav>
-    <div class="nav-left clearfix">
-      <a class="heart" href="#">♥︎</a>
-      <span class="acronym">Navel Pondering Mantra</span>
+    <div class="nav-left">
+      <a href="#">♥︎</a>
+      <span>Navel Pondering Mantra</span>
     </div>
     <ul class="nav-right">
       <li><a href="#">npm Enterprise</a></li>
@@ -26,18 +26,18 @@
 
   <header>
   <div class="top-header">
-    <img src="Images/npm-logo.png" alt="npm Logo">
+    <img class= "npm-logo" src="Images/npm-logo.png" alt="npm Logo">
     <div class="search-box">
       <input type="text" name:"search" placeholder="find packages">
       <a href="#"><i class="fas fa-search"></i></a>
     </div>
-    <div class="top-header-link"> 
+    <div class="top-header-signup"> 
       <a href="#"></a><a href="#">sign-up</a><p>or</p><a href="#">log in</a></a>
     </div>
-    <img class="small-logo" src="Images/bear-logo.png" alt="bear Logo">
+    <img class="bear-logo" src="Images/bear-logo.png" alt="bear Logo">
   </div>
   <div class="img-background"></div>
-  <div class="mid-header clearfix">
+  <div class="mid-header">
     <h1>Build amazing things</h1>
     <p>npm is the package manager for JavaScript and the world's largest<br>software registry. Discover packages of reusable code - and assemble<br>them in powerful new ways</p>
     <a href="#">Sign up for npm</a>
@@ -70,19 +70,22 @@
 <section id="functions">
     <div class="func-heading">
     <h2>What can you make with 700,000 building blocks?</h2>
-    <p>The npm registry hosts the world’s largest collection of free, reusable code.</p>
+    <p>The npm registry hosts almost half a million packages of free, reusable code - the largest software registry in the world</p>
     </div>
     <div class="func-logos">
-    <article class="find">
+    <article class="col">
       <img src="Images/binoculars.svg">
+      <h3>Find</h3>
       <p>Libraries like <a href="#">jQuery</a>, <a href="#">Bootstrap</a>, <a href="#">React</a>, and <a href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a>.</p>
     </article>
-    <article class="discover">
+    <article class="col col-middle">
         <img src="Images/mountain-flag.svg">
+        <h3>Discover</h3>
         <p>Packages for mobile, IoT, front end, back end, robotics… everything you need to start building amazing things.</p>
     </article>
-    <article class="build">
+    <article class="col">
         <img src="Images/backpack.svg">
+        <h3>Build</h3>
         <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
     </article>
     </div>
